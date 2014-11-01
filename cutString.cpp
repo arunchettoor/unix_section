@@ -11,8 +11,8 @@ char * memblock;
 char * _start ="PHOTO";
 char* _end = "END:";
 int count=0;
-ifstream file ("C:\\Users\\chettormana\\Documents\\Arun\\contacts\\nopic.vcf", ios::in|ios::binary|ios::ate);
-ofstream outfile ("C:\\Users\\chettormana\\Documents\\Arun\\contacts\\new.vcf",std::ofstream::binary);
+ifstream file ("C:\\Users\\chettormana\\Documents\\Arun\\contacts\\nopic.vcf", ios::in|ios::binary|ios::ate);//input file link
+ofstream outfile ("C:\\Users\\chettormana\\Documents\\Arun\\contacts\\new.vcf",std::ofstream::binary);//output file link
 if (file.is_open()){
 	size = file.tellg();
 	memblock = new char [size];
