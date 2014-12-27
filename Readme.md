@@ -7,3 +7,4 @@ linkedList.c - Can be used to create & move through the list.
 fileSearch.java - The searching of files and sorting out the files.
 swap.c - To swap two variables without using a third variable.
 one.sh - Alias for changing multiple directory backwards by back command.
+installone.sh - Put the one.sh and installone.sh in one directory and run this by chmod +x access to automatically write the one.sh to the ~/.bashrc .
